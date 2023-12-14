@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Ive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    a:link{color: white;}
+    a:visited{color: white}
+    a:hover{color: #C84706}
+    a:active{color: white}
+
+    section{
+        background-image: url(img/main.png);
+        width: 100vw;
+        height: 100vh;
+        background-position: top;
+        background-size: cover;
+    }
+    nav{
+        width: 826px;
+        height: 44px;
+        position: absolute;
+        top: 179px;
+        left: 76px;
+    }
+    nav ul{
+        width: 826px;
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li{
+        font-size: 37px;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: white;
+    }
+    nav ul li a{
+        
+    }
+</style>
+<body>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="w_sub01.html">About</a></li>
+                <li>|</li>
+                <li><a href="w_sub02.html">Design</a></li>
+                <li>|</li>
+                <li><a href="w_sub03.html">Philosophy</a></li>
+            </ul>
+        </nav>
+    </section>
+</body>
+</html>    

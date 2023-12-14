@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Ive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+    } 
+    
+    a:link{color: white;}
+    a:visited{color: white}
+    a:hover{color: #C84706}
+    a:active{color: white}
+
+    body {
+        width: 100vw;
+       height: 990px;
+       margin: 0;
+       overflow: auto;
+    }
+
+    section{
+        background-image: url(img/w_sub03.png);
+        width: 103vw;
+        height: 6700px;
+        background-position: top;
+        background-size: cover;
+    }
+    nav{
+        width: 1100px;
+        height: 94px; 
+        position: absolute;
+        top: 85px;
+        left: 70px
+    }
+    nav ul{
+        width: 1350px;
+        height: 1204px;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li{
+        font-size: 37px;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: white;
+    }   
+    nav ul li a{
+        
+    }
+
+    .video-thumbnail-container {
+        position: absolute;
+        left: 420px;
+        top: 5790px;
+    }
+
+
+    .video-thumbnail {
+        width: 670px;
+        height: 330px;
+        cursor: pointer;
+    }
+
+    .news-thumbnail-container{
+        position: absolute;
+        left: 940px;
+        top: 4840px;
+    }
+
+    .thumbnail {
+        width: 400px;
+        height: 480px;
+        cursor: pointer;
+    }
+
+    .twitter-logo {
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        top: 6560px;
+        left: 1090px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="w_sub01.html">About</a></li>
+                <li>|</li>
+                <li><a href="w_sub02.html">Design</a></li>
+                <li>|</li>
+                <li><a href="w_sub03.html">Philosophy</a></li>
+            </ul>
+        </nav>
+
+        
+        <div class="video-thumbnail-container">
+            <a href="https://youtu.be/nv2xQQs01eI?si=p6oZM3XmByzBh5Mo" target="_blank">
+                <img src="img/video.png" alt="Video Thumbnail" class="video-thumbnail">
+            </a>
+        </div>
+
+        <div class="news-thumbnail-container">
+            <a href="https://n.news.naver.com/mnews/article/030/0000112984?sid=105" target="_blank">
+                <img src="img/news.png" alt="News Thumbanil" class="thumbnail">
+            </a>
+        </div>
+
+        <div class="twitter-logo-container">
+            <a href="https://x.com/jonyiveparody?s=21&t=CgWhcziUnX8BWHdzaMo9XA" target="_blank">
+                <img src="img/twitter_logo.png" alt="Twitter Logo" class="twitter-logo">
+            </a>
+        </div>
+    </section>
+</body>
+</html>    
